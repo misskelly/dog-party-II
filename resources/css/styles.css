@@ -12,13 +12,51 @@ body {
   margin: auto;
 }
 
+ul,
+li {
+  display: inline-block;
+  list-style-type: none;
+  color: #000000;
+}
 
-
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*/////NAVIGATION/////*/
 
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #75E2E6;
+  border-bottom: 4px solid #048EAA;
+}
 
+.logo {
+  margin: 1rem 0 .5rem 1rem;
+  width: 60px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.full-size-menu {
+  margin-top: 2rem;
+  float: right;
+  font-weight: 600;
+}
+
+.menu-item {
+  padding: 1rem;
+}
+
+.menu-item:hover {
+  font-weight: 800;
+  background-color: #000000; 
+  color: #FFFFFF;
+}
 
 
 
