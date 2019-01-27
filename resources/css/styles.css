@@ -101,11 +101,11 @@ main {
 }
 
 .banner {
-  background-blend-mode: darken;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("park.jpg");
+  /*background-blend-mode: darken;*/
   background-position: bottom;
   background-repeat: no-repeat; 
   background-size: cover;  
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("park.jpg");
   position: relative;
 }
 
