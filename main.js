@@ -15,5 +15,11 @@ function changeName(e){
 function mobileMenu(e) {
     e.preventDefault();
     const menu = document.querySelector('.mobile-menu');
-    menu.style.display=('block');
+    if (!menu.classList.contains('open')){
+        menu.classList.add('open');
+        menu.style.display=('block'); 
+    } else {
+        menu.classList.remove('open');
+        menu.style.display=('none');
+    }
 }
