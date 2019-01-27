@@ -92,8 +92,8 @@ h1 {
 }
 
 .dog {
-  height: 12rem;
-  border: 4px solid #048eaa;
+  width: 10rem;
+  border: 4px solid #3F8DA7;
   border-radius: 50%;
 }
 
@@ -127,15 +127,70 @@ background-color: #75e2e6;
 }
 
 
+/*/////COLUMNS/////*/
 
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
 
+.content {
+  display: inline-block;
+  width:  100%;
+  /*float: right;*/
+}
 
+.column {
+  width: 28%;
+}
 
-/*/////MAIN/////*/
+h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
 
+.woofs {
+  text-align: left;
+  font-weight: normal;
+  color: #000000;
+  height: 15rem;
+  width: 100%;
+  padding: 20px;
+}
 
+#what {
+  margin: 0 30px;
+}
 
-
+h4 {
+  color: #FFFFFF;
+  font-weight: 400;
+  background-color: #3F8DA7;
+  width: 95%;
+  padding: 1rem;
+  margin-left: 20px;
+}
 
 /*/////FOOTER/////*/
+
+footer {
+  background-color: #3F8DA7;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.icon:hover {
+  background-color: #75e2e6; 
+}
 
