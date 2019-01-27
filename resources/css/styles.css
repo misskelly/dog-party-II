@@ -13,14 +13,14 @@ body {
 
 ul,
 li {
+  color: #000000;
   display: inline-block;
   list-style-type: none;
-  color: #000000;
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 .hidden {
@@ -31,11 +31,11 @@ a {
 /*/////NAVIGATION/////*/
 
 header {
-  display: inline-block;
-  width: 100%;
   background-color: #75E2E6;
   border-bottom: 3px solid #048EAA;
+  display: inline-block;
   position: relative;
+  width: 100%;
 }
 
 .logo {
@@ -48,29 +48,33 @@ header {
 }
 
 .full-size-menu {
-  margin-top: 20px;
   float: right;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 .mobile-menu {
-  position: absolute;
-  z-index: 99;
-  display: none;
-  right: 15px;
-  top: 55px;
   background-color: #000000;
   border: solid 2px #FFFFFF;
-  width: 50%;
+  display: none;
   margin: 0;
   padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 55px;
+  width: 50%;
+  z-index: 99;
 }
 
 .mobile-menu-item{
   color: #75e2e6;
+  display: block;
   font-weight: bold;
   margin: 15px;
-  display: block;
+}
+
+.mobile-menu-item:hover {
+  color: #FFFFFF;
 }
 
 .undrln {
@@ -78,16 +82,17 @@ header {
   width: 100%;
 }
 
-
 .menu-item {
   padding: 1rem;
 }
 
 .menu-item:hover {
-  font-weight: 800;
   background-color: #000000; 
   color: #FFFFFF;
+  font-weight: 800;
 }
+
+
 
 /*/////BANNER/////*/
 
@@ -96,20 +101,20 @@ main {
 }
 
 .banner {
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("park.jpg");
-  background-size: cover;  
   background-blend-mode: darken;
-  background-repeat: no-repeat; 
   background-position: bottom;
+  background-repeat: no-repeat; 
+  background-size: cover;  
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("park.jpg");
   position: relative;
 }
 
 h1 {
   color: white;
-  font-weight: 400;
   font-size: 45px;
-  padding: 2rem;
+  font-weight: 400;
   margin: 0;
+  padding: 2rem;
 }
 
 .dog-name {
@@ -117,39 +122,39 @@ h1 {
 }
 
 .dog {
-  width: 10rem;
-  border: 4px solid #048EAA;
   border-radius: 50%;
+  border: 4px solid #048EAA;
+  width: 10rem;
 }
 
 form {
-  width: 40%;
   margin: 30px auto;
+  width: 40%;
 }
 
 .name-label {
-  display: block;
-  text-align: left;
   color: #FFFFFF;
+  display: block;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 input,
 button {
-  width: 100%;
-  padding: 10px;
   margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
 }
 
 input {
-  text-align: center;
   font-weight: bold;
+  text-align: center;
 }
 
 button {
-  font-size: 1rem;
   background-color: #75e2e6;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 button:hover {
@@ -157,12 +162,12 @@ button:hover {
 }
 
 
+
 /*/////COLUMNS/////*/
 
 .columns-container {
-  padding: 0;
   margin: 0;
-
+  padding: 0;
 }
 
 .content {
@@ -170,8 +175,8 @@ button:hover {
 }
 
 .column {
-  width: 28%;
   margin: 10px;
+  width: 28%;
 }
 
 h3 {
@@ -180,10 +185,10 @@ h3 {
 }
 
 .woofs {
-  text-align: justify;
-  font-weight: normal;
   color: #000000;
+  font-weight: normal;
   height: 9rem;
+  text-align: justify;
   width: 100%;
 }
 
@@ -196,28 +201,29 @@ h3 {
 }
 
 h4 {
+  background-color: #048EAA;
   color: #FFFFFF;
   font-weight: 400;
-  background-color: #048EAA;
-  width: 100%;
-  padding: 1rem;
   margin-bottom: 2rem;
+  padding: 1rem;
+  width: 100%;
 }
 
 h4:hover {
   background-color: #FFFFFF;
-  color: #048EAA;
   border: 2px solid #048EAA;
-
+  color: #048EAA;
 }
+
+
 
 /*/////FOOTER/////*/
 
 footer {
   background-color: #048EAA;
-  text-align: center;
   color: #ffffff;
   padding: 40px 0;
+  text-align: center;
 }
 
 h5 {
@@ -232,6 +238,8 @@ h5 {
 .icon:hover {
   background-color: #75e2e6; 
 }
+
+
 
 /*/////MEDIA QUERIES/////*/
 
@@ -248,8 +256,8 @@ h5 {
       font-size: 16px;
     }
     h3 {
-      margin-top: 10px;
       font-size: 1.3rem;
+      margin-top: 10px;
     }
 }
 
@@ -267,15 +275,15 @@ h5 {
       margin: 0 20px
     }
     .column-dog {
-      width: 8rem;
       margin: 1rem;
+      width: 8rem;
     }
     .woofs {
       height: 11rem;
     }
     form {
-      width: 60%;
       margin: 30px auto;
+      width: 60%;
     }
 }
 
@@ -293,11 +301,11 @@ h5 {
     }
     h3 {
       font-size: 1.6rem;
-      padding-top: 2rem;
       margin: 0;
+      padding-top: 2rem;
     }
     .menu-item {
-      padding: 15px 30px;
+      padding: 15px 20px;
     }
 }
 
@@ -314,8 +322,8 @@ h5 {
       padding: 10px 30px;
     }
     .menu-icon:hover {
-      color: #FFFFFF;
       background-color: #000000;
+      color: #FFFFFF;
     }
     .menu-icon:active {
       background-color: #FFFFFF;
@@ -324,8 +332,8 @@ h5 {
       display: block;
     }
     form {
-      width: 85%;
       padding-bottom: 20px;
+      width: 85%;
     }
     .column{
       width: 85%;
